@@ -50,3 +50,5 @@ C:\Users\Chang Kai Wen\source\repos\smartPowerService\smartPowerService\bin\Enti
 C:\Users\Chang Kai Wen\source\repos\smartPowerService\smartPowerService\bin\EntityFramework.SqlServer.dll
 C:\Users\Chang Kai Wen\source\repos\smartPowerService\smartPowerService\bin\EntityFramework.xml
 C:\Users\Chang Kai Wen\source\repos\smartPowerService\smartPowerService\bin\EntityFramework.SqlServer.xml
+C:\Users\Chang Kai Wen\source\repos\smartPowerService\smartPowerService\obj\Debug\smartPowerService.Migrations.Initial.resources
+C:\Users\Chang Kai Wen\source\repos\smartPowerService\smartPowerService\obj\Debug\smartPowerService.csproj.GenerateResource.Cache
