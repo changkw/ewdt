@@ -48,6 +48,25 @@ namespace smartPowerService.Migrations
                 new Work() { workID = "ScanDocs008", startTime = new DateTime(2017, 09, 03, 19, 15, 0), endTime = new DateTime(2017, 09, 03, 20, 15, 0), userID = 11},
                 new Work() { workID = "PrintDocs009", startTime = new DateTime(2017, 09, 09, 20, 30, 0), endTime = new DateTime(2017, 09, 09, 21, 30, 0), userID = 12}
             );
+
+            context.CurrentActivities.AddOrUpdate(x => x.workID,
+                new CurrentActivity() { Id = 1, lighting = 77 , machine = 50, alarm = 5, door = 20, timeDate = new DateTime(2017, 07, 23, 19, 30, 0), workID = "PrintDocs001" },
+                new CurrentActivity() { Id = 2, lighting = 17, machine = 76, alarm = 5, door = 0, timeDate = new DateTime(2017, 07, 28, 19, 15, 0), workID = "ScanDocs001" },
+                new CurrentActivity() { Id = 3, lighting = 52, machine = 13, alarm = 5, door = 20, timeDate = new DateTime(2017, 08, 03, 19, 45, 0), workID = "PrintDocs002" },
+                new CurrentActivity() { Id = 4, lighting = 30, machine = 74, alarm = 5, door = 20, timeDate = new DateTime(2017, 08, 08, 19, 30, 0), workID = "PrintDocs003" },
+                new CurrentActivity() { Id = 5, lighting = 75, machine = 26, alarm = 5, door = 20, timeDate = new DateTime(2017, 08, 08, 20, 45, 0), workID = "ScanDocs002" },
+                new CurrentActivity() { Id = 6, lighting = 95, machine = 31, alarm = 5, door = 20, timeDate = new DateTime(2017, 08, 15, 19, 50, 0), workID = "ScanDocs004" },
+                new CurrentActivity() { Id = 7, lighting = 39, machine = 15, alarm = 5, door = 20, timeDate = new DateTime(2017, 08, 15, 21, 0, 0), workID = "PrintDocs004" },
+                new CurrentActivity() { Id = 8, lighting = 45, machine = 19, alarm = 5, door = 20, timeDate = new DateTime(2017, 08, 20, 20, 0, 0), workID = "PrintDocs005" },
+                new CurrentActivity() { Id = 9, lighting = 33, machine = 14, alarm = 5, door = 20, timeDate = new DateTime(2017, 08, 24, 19, 50, 0), workID = "ScanDocs005" },
+                new CurrentActivity() { Id = 10, lighting = 31, machine = 84, alarm = 5, door = 20, timeDate = new DateTime(2017, 08, 26, 20, 0, 0), workID = "ScanDocs006" },
+                new CurrentActivity() { Id = 11, lighting = 51, machine = 90, alarm = 5, door = 20, timeDate = new DateTime(2017, 08, 29, 22, 0, 0), workID = "PrintDocs006" },
+                new CurrentActivity() { Id = 12, lighting = 72, machine = 40, alarm = 5, door = 20, timeDate = new DateTime(2017, 09, 02, 19, 15, 0), workID = "ScanDocs007" },
+                new CurrentActivity() { Id = 13, lighting = 39, machine = 21, alarm = 5, door = 20, timeDate = new DateTime(2017, 09, 03, 19, 15, 0), workID = "PrintDocs007" },
+                new CurrentActivity() { Id = 14, lighting = 88, machine = 75, alarm = 5, door = 20, timeDate = new DateTime(2017, 09, 09, 20, 30, 0), workID = "PrintDocs008" },
+                new CurrentActivity() { Id = 15, lighting = 65, machine = 27, alarm = 5, door = 20, timeDate = new DateTime(2017, 07, 23, 19, 30, 0), workID = "ScanDocs008" },
+                new CurrentActivity() { Id = 16, lighting = 91, machine = 47, alarm = 5, door = 20, timeDate = new DateTime(2017, 07, 23, 19, 30, 0), workID = "PrintDocs009" }
+            );
         }
     }
 }
