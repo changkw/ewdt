@@ -12,17 +12,17 @@ using smartPowerService.Models;
 
 namespace smartPowerService.Controllers
 {
-    public class WorkController : ApiController
+    public class WorksController : ApiController
     {
         private smartPowerServiceContext db = new smartPowerServiceContext();
 
-        // GET: api/Work
+        // GET: api/Works
         public IQueryable<Work> GetWorks()
         {
             return db.Works;
         }
 
-        // GET: api/Work/5
+        // GET: api/Works/5
         [ResponseType(typeof(Work))]
         public IHttpActionResult GetWork(string id)
         {
@@ -35,7 +35,7 @@ namespace smartPowerService.Controllers
             return Ok(work);
         }
 
-        // PUT: api/Work/5
+        // PUT: api/Works/5
         [ResponseType(typeof(void))]
         public IHttpActionResult PutWork(string id, Work work)
         {
@@ -70,7 +70,7 @@ namespace smartPowerService.Controllers
             return StatusCode(HttpStatusCode.NoContent);
         }
 
-        // POST: api/Work
+        // POST: api/Works
         [ResponseType(typeof(Work))]
         public IHttpActionResult PostWork(Work work)
         {
@@ -100,7 +100,7 @@ namespace smartPowerService.Controllers
             return CreatedAtRoute("DefaultApi", new { id = work.workID }, work);
         }
 
-        // DELETE: api/Work/5
+        // DELETE: api/Works/5
         [ResponseType(typeof(Work))]
         public IHttpActionResult DeleteWork(string id)
         {
