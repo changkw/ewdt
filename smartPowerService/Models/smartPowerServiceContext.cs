@@ -14,7 +14,7 @@ namespace smartPowerService.Models
         // automatically whenever you change your model schema, please use data migrations.
         // For more information refer to the documentation:
         // http://msdn.microsoft.com/en-us/data/jj591621.aspx
-    
+
         public smartPowerServiceContext() : base("name=smartPowerServiceContext")
         {
         }
@@ -22,5 +22,9 @@ namespace smartPowerService.Models
         public System.Data.Entity.DbSet<smartPowerService.Models.Work> Works { get; set; }
 
         public System.Data.Entity.DbSet<smartPowerService.Models.User> Users { get; set; }
+
+        public System.Data.Entity.DbSet<smartPowerService.Models.CurrentActivity> CurrentActivities { get; set; } 
+
+        public System.Data.Entity.DbSet<smartPowerService.Models.Notification> Notifications { get; set; }
     }
 }
