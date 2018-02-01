@@ -16,8 +16,8 @@ namespace smartPowerService.Migrations
         protected override void Seed(smartPowerService.Models.smartPowerServiceContext context)
         {
             context.Users.AddOrUpdate(x => x.userID,
-                new User() { userID = 1, user = "Jaaziah Chan", username = "jaazc", number = 96470725, password = "jaaz2212" },
-                new User() { userID = 2, user = "Sean Kow", username = "seank", number = 81777468, password = "sean0105" }
+                new User() { userID = 1, user = "Jaaziah Chan", username = "jaazc", number = 1357 },
+                new User() { userID = 2, user = "Sean Kow", username = "seank", number = 2468}
 
             );
             context.Works.AddOrUpdate(x => x.workID,
