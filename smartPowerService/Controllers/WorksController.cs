@@ -37,7 +37,7 @@ namespace smartPowerService.Controllers
 
         // PUT: api/Works/5
         [ResponseType(typeof(void))]
-        public IHttpActionResult PutWork(string id, Work work)
+        public IHttpActionResult PutWork(int id, Work work)
         {
             if (!ModelState.IsValid)
             {
@@ -125,7 +125,7 @@ namespace smartPowerService.Controllers
             base.Dispose(disposing);
         }
 
-        private bool WorkExists(string id)
+        private bool WorkExists(int id)
         {
             return db.Works.Count(e => e.workID == id) > 0;
         }

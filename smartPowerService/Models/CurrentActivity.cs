@@ -9,16 +9,12 @@ namespace smartPowerService.Models
 {
     public class CurrentActivity
     {
-        public int Id { get; set; }
+        public int CurrentActivityId { get; set; }
         [Required]
         public int lighting { get; set; }
         public int machine { get; set; }
         public int alarm { get; set; }
         public int door { get; set; }
         public DateTime timeDate { get; set; }
-        public string workID{ get; set; }
-        [ForeignKey("workID")]
-        public Work Work { get; set; }
-
     }
 }

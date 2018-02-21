@@ -183,17 +183,23 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\ActivityController.cs" />
     <Compile Include="Controllers\CurrentActivitiesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NotificationsController.cs" />
+    <Compile Include="Controllers\PresenceController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Controllers\WorksController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201802011402196_Initial.cs" />
-    <Compile Include="Migrations\201802011402196_Initial.Designer.cs">
-      <DependentUpon>201802011402196_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201802211317011_Initial.cs" />
+    <Compile Include="Migrations\201802211317011_Initial.Designer.cs">
+      <DependentUpon>201802211317011_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802211608041_SetEndTimeNotNull.cs" />
+    <Compile Include="Migrations\201802211608041_SetEndTimeNotNull.Designer.cs">
+      <DependentUpon>201802211608041_SetEndTimeNotNull.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CurrentActivity.cs" />
@@ -272,9 +278,15 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201802011402196_Initial.resx">
-      <DependentUpon>201802011402196_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201802211317011_Initial.resx">
+      <DependentUpon>201802211317011_Initial.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802211608041_SetEndTimeNotNull.resx">
+      <DependentUpon>201802211608041_SetEndTimeNotNull.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

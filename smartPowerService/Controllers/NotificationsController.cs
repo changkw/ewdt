@@ -45,7 +45,7 @@ namespace smartPowerService.Controllers
                 return BadRequest(ModelState);
             }
 
-            if (id != notification.Id)
+            if (id != notification.NotificationID)
             {
                 return BadRequest();
             }
@@ -88,7 +88,7 @@ namespace smartPowerService.Controllers
             }
             catch (DbUpdateException)
             {
-                if (NotificationExists(notification.Id))
+                if (NotificationExists(notification.NotificationID))
                 {
                     return Conflict();
                 }
@@ -98,7 +98,7 @@ namespace smartPowerService.Controllers
                 }
             }
 
-            return CreatedAtRoute("DefaultApi", new { id = notification.Id }, notification);
+            return CreatedAtRoute("DefaultApi", new { id = notification.NotificationID }, notification);
         }
 
         // DELETE: api/Notifications/5
@@ -128,7 +128,7 @@ namespace smartPowerService.Controllers
 
         private bool NotificationExists(int id)
         {
-            return db.Notifications.Count(e => e.Id == id) > 0;
+            return db.Notifications.Count(e => e.NotificationID == id) > 0;
         }
     }
 }

@@ -45,7 +45,7 @@ namespace smartPowerService.Controllers
                 return BadRequest(ModelState);
             }
 
-            if (id != currentActivity.Id)
+            if (id != currentActivity.CurrentActivityId)
             {
                 return BadRequest();
             }
@@ -83,7 +83,7 @@ namespace smartPowerService.Controllers
             db.CurrentActivities.Add(currentActivity);
             await db.SaveChangesAsync();
 
-            return CreatedAtRoute("DefaultApi", new { id = currentActivity.Id }, currentActivity);
+            return CreatedAtRoute("DefaultApi", new { id = currentActivity.CurrentActivityId }, currentActivity);
         }
 
         // DELETE: api/CurrentActivities/5
@@ -113,7 +113,12 @@ namespace smartPowerService.Controllers
 
         private bool CurrentActivityExists(int id)
         {
-            return db.CurrentActivities.Count(e => e.Id == id) > 0;
+            return db.CurrentActivities.Count(e => e.CurrentActivityId == id) > 0;
         }
+
+
+
+
+
     }
 }

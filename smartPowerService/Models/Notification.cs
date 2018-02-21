@@ -12,9 +12,9 @@ namespace smartPowerService.Models
         public int NotificationID { get; set; }
         [Required]
         public DateTime timeDate { get; set; }
-        public int Id { get; set; }
-        [ForeignKey("Id")]
-        public CurrentActivity CurrentActivity { get; set; }
+        public int CurrentActivityId { get; set; }
+        [ForeignKey("CurrentActivityId")]
+        public CurrentActivity currentActivity { get; set; }
 
 
 
