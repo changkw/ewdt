@@ -16,18 +16,18 @@ namespace smartPowerService.Migrations
         protected override void Seed(smartPowerService.Models.smartPowerServiceContext context)
         {
             context.Users.AddOrUpdate(x => x.userID,
-                new User() { userID = 1, user = "Jaaziah Chan", username = "jaazc", number = 96470725, password = "jaaz2212" },
-                new User() { userID = 2, user = "Sean Kow", username = "seank", number = 81777468, password = "sean0105" },
-                new User() { userID = 3, user = "Tom Tan", username = "tommy", number = 81747468, password = "tom1234" },
-                new User() { userID = 4, user = "Julianne Scot", username = "juliscot", number = 81747468, password = "julie4567" },
-                new User() { userID = 5, user = "Phoebe Kevin", username = "phekevin", number = 81747468, password = "phebe3124" },
-                new User() { userID = 6, user = "Elijah Jennifer", username = "elijennifer", number = 81232168, password = "elijah9712" },
-                new User() { userID = 7, user = "Kelsey Knox", username = "kelsknox", number = 81787538, password = "kelsey5253" },
-                new User() { userID = 8, user = "Piers Martin", username = "piermartin", number = 81168768, password = "piers9178" },
-                new User() { userID = 9, user = "Kiera Hubert", username = "kierhubert", number = 81258648, password = "kiera9742" },
-                new User() { userID = 10, user = "Kendrick Ralph", username = "kenralph", number = 88612358, password = "ken9871" },
-                new User() { userID = 11, user = "Tara Arthur", username = "taraarthur", number = 812356754, password = "tera7584" },
-                new User() { userID = 12, user = "Tobin Theodora", username = "tobindora", number = 81234251, password = "tobin9172" }
+                new User() { userID = 1, user = "Jaaziah Chan", email = "jaazc@gmail.com", number = 96470725, password = "jaaz2212" },
+                new User() { userID = 2, user = "Sean Kow", email = "seank@gmail.com", number = 81777468, password = "sean0105" },
+                new User() { userID = 3, user = "Tom Tan", email = "tommy@gmail.com", number = 81747468, password = "tom1234" },
+                new User() { userID = 4, user = "Julianne Scot", email = "juliscot@gmail.com", number = 81747468, password = "julie4567" },
+                new User() { userID = 5, user = "Phoebe Kevin", email = "phekevin@gmail.com", number = 81747468, password = "phebe3124" },
+                new User() { userID = 6, user = "Elijah Jennifer", email = "elijennifer@gmail.com", number = 81232168, password = "elijah9712" },
+                new User() { userID = 7, user = "Kelsey Knox", email = "kelsknox@gmail.com", number = 81787538, password = "kelsey5253" },
+                new User() { userID = 8, user = "Piers Martin", email = "piermartin@gmail.com", number = 81168768, password = "piers9178" },
+                new User() { userID = 9, user = "Kiera Hubert", email = "kierhubert@gmail.com", number = 81258648, password = "kiera9742" },
+                new User() { userID = 10, user = "Kendrick Ralph", email = "kenralph@gmail.com", number = 88612358, password = "ken9871" },
+                new User() { userID = 11, user = "Tara Arthur", email = "taraarthur@gmail.com", number = 812356754, password = "tera7584" },
+                new User() { userID = 12, user = "Tobin Theodora", email = "tobindora@gmail.com", number = 81234251, password = "tobin9172" }
                 );
 
             context.Works.AddOrUpdate(x => x.workID,
