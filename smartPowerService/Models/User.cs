@@ -10,7 +10,7 @@ namespace smartPowerService.Models
     {
         public int userID { get; set; }
         [Required]
-        public string username { get; set; }
+        public string email { get; set; }
         public string user { get; set; }
         public string password { get; set; }
         public int number { get; set; }
