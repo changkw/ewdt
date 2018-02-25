@@ -52,7 +52,6 @@ C:\Users\Chang Kai Wen\source\repos\smartPowerService\smartPowerService\bin\Enti
 C:\Users\Chang Kai Wen\source\repos\smartPowerService\smartPowerService\bin\EntityFramework.SqlServer.xml
 C:\Users\Chang Kai Wen\source\repos\smartPowerService\smartPowerService\obj\Debug\smartPowerService.Migrations.Initial.resources
 C:\Users\Chang Kai Wen\source\repos\smartPowerService\smartPowerService\obj\Debug\smartPowerService.csproj.GenerateResource.Cache
-C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.csprojResolveAssemblyReference.cache
 C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.csproj.CoreCompileInputs.cache
 C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.dll
 C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.pdb
@@ -107,3 +106,4 @@ C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\bin\Microsoft.
 C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.Migrations.Initial.resources
 C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.csproj.GenerateResource.Cache
 C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.Migrations.SetEndTimeNotNull.resources
+C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.Migrations.UserEmail.resources

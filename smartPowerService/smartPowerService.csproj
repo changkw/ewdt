@@ -201,6 +201,10 @@
     <Compile Include="Migrations\201802211608041_SetEndTimeNotNull.Designer.cs">
       <DependentUpon>201802211608041_SetEndTimeNotNull.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802250816215_UserEmail.cs" />
+    <Compile Include="Migrations\201802250816215_UserEmail.Designer.cs">
+      <DependentUpon>201802250816215_UserEmail.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CurrentActivity.cs" />
     <Compile Include="Models\Notification.cs" />
@@ -208,6 +212,7 @@
     <Compile Include="Models\Work.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\CorsHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
@@ -283,6 +288,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201802211608041_SetEndTimeNotNull.resx">
       <DependentUpon>201802211608041_SetEndTimeNotNull.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802250816215_UserEmail.resx">
+      <DependentUpon>201802250816215_UserEmail.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
