@@ -20,6 +20,6 @@ namespace smartPowerService.Controllers
 
             return true;
         }
-
-    }
+        
+    } 
 }

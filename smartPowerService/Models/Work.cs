@@ -10,11 +10,8 @@ namespace smartPowerService.Models
     public class Work
     {
         public int workID { get; set; }
-        [Required]
-        public DateTime startTime { get; set; }
+        public DateTime? startTime { get; set; }
         public DateTime? endTime { get; set; }
         public int userID { get; set; }
-        [ForeignKey("userID")]
-        public User user { get; set; }
     }
 }

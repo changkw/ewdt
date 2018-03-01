@@ -52,9 +52,6 @@ C:\Users\Chang Kai Wen\source\repos\smartPowerService\smartPowerService\bin\Enti
 C:\Users\Chang Kai Wen\source\repos\smartPowerService\smartPowerService\bin\EntityFramework.SqlServer.xml
 C:\Users\Chang Kai Wen\source\repos\smartPowerService\smartPowerService\obj\Debug\smartPowerService.Migrations.Initial.resources
 C:\Users\Chang Kai Wen\source\repos\smartPowerService\smartPowerService\obj\Debug\smartPowerService.csproj.GenerateResource.Cache
-C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.csproj.CoreCompileInputs.cache
-C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.dll
-C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.pdb
 C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\bin\ApplicationInsights.config
 C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\bin\smartPowerService.dll.config
 C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\bin\smartPowerService.dll
@@ -103,7 +100,14 @@ C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\bin\Microsoft.
 C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\bin\Microsoft.AI.Web.xml
+C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.csprojResolveAssemblyReference.cache
 C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.Migrations.Initial.resources
-C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.csproj.GenerateResource.Cache
 C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.Migrations.SetEndTimeNotNull.resources
 C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.Migrations.UserEmail.resources
+C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.Migrations.CleanedWorks.resources
+C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.Migrations.UpdatedWorks.resources
+C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.csproj.GenerateResource.Cache
+C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.csproj.CoreCompileInputs.cache
+C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.dll
+C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.pdb
+C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.Migrations.RemovedRequiredStartTime.resources
