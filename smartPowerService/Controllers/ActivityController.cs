@@ -13,7 +13,7 @@ namespace smartPowerService.Controllers
         public Boolean Get()
         {
             CurrentActivity currentActivity = db.CurrentActivities.OrderByDescending(x => x.timeDate).First();
-            if (currentActivity.lighting == 0 && currentActivity.door == 0 && currentActivity.machine == 0 && currentActivity.alarm == 0)
+            if (currentActivity.Lighting == 0 && currentActivity.Door == 0 && currentActivity.Machine == 0 && currentActivity.Alarm == 0)
             {
                 return false;
             }
