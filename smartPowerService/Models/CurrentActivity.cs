@@ -11,10 +11,10 @@ namespace smartPowerService.Models
     {
         public int CurrentActivityId { get; set; }
         [Required]
-        public int lighting { get; set; }
-        public int machine { get; set; }
-        public int alarm { get; set; }
-        public int door { get; set; }
-        public DateTime timeDate { get; set; }
+        public int Lighting { get; set; }
+        public int Machine { get; set; }
+        public int Alarm { get; set; }
+        public int Door { get; set; }
+        public DateTime Timedate { get; set; }
     }
 }
