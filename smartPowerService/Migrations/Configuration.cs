@@ -38,12 +38,12 @@ namespace smartPowerService.Migrations
 
             context.CurrentActivities.AddOrUpdate(x => x.CurrentActivityId,
                 new CurrentActivity() { CurrentActivityId = 1, Lighting = 77, Machine = 50, Alarm = 5, Door = 20, Timedate = new DateTime(2017, 07, 23, 20, 29, 0) },
-                new CurrentActivity() { CurrentActivityId = 2, lighting = 17, Machine = 76, Alarm = 5, Door = 0, Timedate = new DateTime(2017, 07, 23, 20, 29, 10) },
-                new CurrentActivity() { CurrentActivityId = 3, lighting = 52, Machine = 13, Alarm = 5, Door = 20, Timedate = new DateTime(2017, 07, 23, 20, 29, 20) },
-                new CurrentActivity() { CurrentActivityId = 4, lighting = 30, Machine = 74, Alarm = 5, Door = 20, Timedate = new DateTime(2017, 07, 23, 20, 29, 30) },
-                new CurrentActivity() { CurrentActivityId = 5, lighting = 75, Machine = 26, Alarm = 5, Door = 20, Timedate = new DateTime(2017, 07, 23, 20, 29, 40) },
-                new CurrentActivity() { CurrentActivityId = 6, lighting = 95, Machine = 31, Alarm = 5, Door = 20, Timedate = new DateTime(2017, 07, 23, 20, 29, 50) },
-                new CurrentActivity() { CurrentActivityId = 7, lighting = 39, Machine = 15, Alarm = 5, Door = 20, Timedate = new DateTime(2017, 07, 23, 20, 30, 0) }
+                new CurrentActivity() { CurrentActivityId = 2, Lighting = 17, Machine = 76, Alarm = 5, Door = 0, Timedate = new DateTime(2017, 07, 23, 20, 29, 10) },
+                new CurrentActivity() { CurrentActivityId = 3, Lighting = 52, Machine = 13, Alarm = 5, Door = 20, Timedate = new DateTime(2017, 07, 23, 20, 29, 20) },
+                new CurrentActivity() { CurrentActivityId = 4, Lighting = 30, Machine = 74, Alarm = 5, Door = 20, Timedate = new DateTime(2017, 07, 23, 20, 29, 30) },
+                new CurrentActivity() { CurrentActivityId = 5, Lighting = 75, Machine = 26, Alarm = 5, Door = 20, Timedate = new DateTime(2017, 07, 23, 20, 29, 40) },
+                new CurrentActivity() { CurrentActivityId = 6, Lighting = 95, Machine = 31, Alarm = 5, Door = 20, Timedate = new DateTime(2017, 07, 23, 20, 29, 50) },
+                new CurrentActivity() { CurrentActivityId = 7, Lighting = 39, Machine = 15, Alarm = 5, Door = 20, Timedate = new DateTime(2017, 07, 23, 20, 30, 0) }
 
             );
 
