@@ -12,11 +12,11 @@ namespace smartPowerService.Migrations
                 c => new
                     {
                         CurrentActivityId = c.Int(nullable: false, identity: true),
-                        lighting = c.Int(nullable: false),
-                        machine = c.Int(nullable: false),
-                        alarm = c.Int(nullable: false),
-                        door = c.Int(nullable: false),
-                        timeDate = c.DateTime(nullable: false),
+                        Lighting = c.Int(nullable: false),
+                        Machine = c.Int(nullable: false),
+                        Alarm = c.Int(nullable: false),
+                        Door = c.Int(nullable: false),
+                        Timedate = c.DateTime(nullable: false),
                     })
                 .PrimaryKey(t => t.CurrentActivityId);
             
