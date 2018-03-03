@@ -111,3 +111,4 @@ C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smar
 C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.dll
 C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.pdb
 C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.Migrations.RemovedRequiredStartTime.resources
+C:\Users\Chang Kai Wen\source\repos\ewdt-server\smartPowerService\obj\Debug\smartPowerService.Migrations.UpdateNotifications.resources

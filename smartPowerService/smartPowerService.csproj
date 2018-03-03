@@ -218,6 +218,10 @@
     <Compile Include="Migrations\201803011432144_RemovedRequiredStartTime.Designer.cs">
       <DependentUpon>201803011432144_RemovedRequiredStartTime.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803030826565_UpdateNotifications.cs" />
+    <Compile Include="Migrations\201803030826565_UpdateNotifications.Designer.cs">
+      <DependentUpon>201803030826565_UpdateNotifications.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CurrentActivity.cs" />
     <Compile Include="Models\Notification.cs" />
@@ -313,6 +317,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803011432144_RemovedRequiredStartTime.resx">
       <DependentUpon>201803011432144_RemovedRequiredStartTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803030826565_UpdateNotifications.resx">
+      <DependentUpon>201803030826565_UpdateNotifications.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

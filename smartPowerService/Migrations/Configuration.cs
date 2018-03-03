@@ -48,7 +48,7 @@ namespace smartPowerService.Migrations
             );
 
             context.Notifications.AddOrUpdate(x => x.NotificationID,
-            new Notification() { NotificationID = 1, timeDate = new DateTime(2017, 07, 23, 19, 30, 0), CurrentActivityId = 1 }
+            new Notification() { NotificationID = 1, timeDate = new DateTime(2017, 07, 23, 19, 30, 0) }
         );
         }
     }
